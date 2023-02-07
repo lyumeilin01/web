@@ -3,42 +3,53 @@ import Head from 'next/head';
 import Link from 'next/link';
 
 const Home = () => (
-  <div style={{ background: '#D0D0D5', minHeight: '100vh', color:'1B1B32' }}>
+  <div style={{ backgroundImage:'url(/back1.png)', backgroundSize: 'cover',backgroundRepeat: 'no-repeat', minHeight: '100vh', backgroundPosition: 'center center',height: '100vh',width: '100vw'}}>
     <Head>
       <title>My Personal Website</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     &emsp; &emsp; &emsp;
-    <h1 style={{ color: '#1B1B32', textAlign: 'center', marginTop: '1rem', marginLeft:'2rem' }}>Meilin Lyu</h1>
-    <h2 style={{ color: '#1B1B32', marginTop: '3rem', marginLeft:'2rem' }}>Coding Projects</h2>
-    <ul style={{ color: '#1B1B32', marginTop: '1rem' }}>
-      <li style = {{ marginTop: '1rem', marginLeft:'2.5rem' }}>
-        <Link href="/Project1">&nbsp; ^__^ &nbsp;&lt; Lunch Connect &gt;<br></br>
+    <p style={{color: '#65360F', textAlign: 'center', marginLeft: '2rem'}}>╔═══════════════╗</p>
+    <h1 style={{ color: '#1B1B32', textAlign: 'center', marginTop: '0.15rem', marginLeft:'2rem' }}>Meilin Lyu</h1>
+    <p style={{textAlign: 'center', marginLeft: '2rem'}}>╚═══════════════╝</p>
+    
+    <p style={{ color: '#1B1B32', textAlign:'center', marginLeft:'2rem' , marginTop: '1rem'}}><a href="https://github.com/lyumeilin01">GitHub&emsp;</a><a href="https://drive.google.com/file/d/1zPz7qIbTikRlbft04QKyjBY-CJuXFlak/view?usp=share_link">&emsp;CV</a></p>
+    <ul style={{ color: '#4A2511', marginTop: '20rem' }}>
+      <p style = {{ marginTop: '1rem', marginLeft:'28rem' }}>
+        <Link href="/Project1">&nbsp; <b><b>^__^ &nbsp;&lt; School work &gt;<br></br>
         &nbsp;&nbsp;(oo)\____ <br></br>
-        &nbsp;(__)\ &emsp;&emsp;&nbsp;)\/\ <br></br>
+        &nbsp;(__)\ &emsp;&emsp;&nbsp;)\/\/\/ <br></br>
         &emsp;&emsp;||----w | <br></br>
-        &emsp;&emsp;||     &emsp;&emsp;||
+        &emsp;&emsp;||     &emsp;&emsp;|| </b></b>
         </Link>
-      </li>
-      <li style={{ marginTop: '1rem', marginLeft:'2.5rem' }}>Project 2</li>
-      <li style={{ marginTop: '1rem' , marginLeft:'2.5rem'}}>Project 3</li>
+      </p>
     </ul>
-    <h2 style={{ color: '#1B1B32', marginTop: '2rem', marginLeft:'2rem'}}>Thoughts</h2>
-    <p style={{ color: '#1B1B32', marginLeft:'2rem' , marginTop: '0.5rem'}}>Here are some of my recent thoughts:</p>
-    <ul style={{ color: '#1B1B32' }}>
-      <li style={{ marginTop: '1rem' , marginLeft:'2.5rem'}}>Thought 1</li>
-      <li style={{ marginTop: '1rem' , marginLeft:'2.5rem'}}>Thought 2</li>
-      <li style={{ marginTop: '1rem' , marginLeft:'2.5rem'}}>Thought 3</li>
+    
+    
+    <ul style={{ color: '#4A2511' }}>
+
+      <p style = {{ color: '#4A2511' , marginTop: '-10rem', marginLeft:'37rem' }}>
+        <Link href="/Project1">&nbsp; <strong>*___* &nbsp;&lt; Projects &gt;<br></br>
+        &nbsp;&nbsp;(@@)\____ <br></br>
+        &nbsp;(_u__)\ &emsp;&emsp;&nbsp;&nbsp;)\/\ <br></br>
+        &emsp;&nbsp;||--------w | <br></br>
+        &emsp;&nbsp;||     &emsp;&emsp;&emsp;||</strong>
+        </Link>
+      </p>
+      <p style = {{ color: '#4A2511' , marginTop: '-1rem', marginLeft:'43rem' }}>
+        <Link href="/Project1">&nbsp; <strong>^__^ &nbsp;&lt; Current work &gt;<br></br>
+        &nbsp;&nbsp;(^^)\____ <br></br>
+        &nbsp;( U )\ &emsp;&emsp;&nbsp;)\/\ <br></br>
+        &emsp;&emsp;||----w | <br></br>
+        &emsp;&emsp;||     &emsp;&emsp;||</strong>
+        </Link>
+      </p>
     </ul>
-    <h2 style={{ color: '#1B1B32' , marginTop: '2rem', marginLeft:'2rem'}}>Artworks</h2>
-    <p style={{ color: '#1B1B32', marginLeft:'2rem' , marginTop: '0.5rem'}}>Check out some of my artworks:</p>
-    <ul style={{ color: '#1B1B32' }}>
-      <li style={{ marginTop: '1rem', marginLeft:'2.5rem' }}></li>
-      <li style={{ marginTop: '1rem' , marginLeft:'2.5rem'}}>Artwork 2</li>
-      <li style={{ marginTop: '1rem' , marginLeft:'2.5rem'}}>Artwork 3</li>
-    </ul>
-    <p style={{ color: '#1B1B32', textAlign:'center', marginLeft:'2rem' , marginTop: '3rem'}}>Contact Me:</p>
+
   </div>
-);
+
+
+
+);  
 
 export default Home;
