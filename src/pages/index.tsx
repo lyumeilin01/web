@@ -4,7 +4,7 @@ import Link from 'next/link';
 import back1 from "../../public/back1.png"
 
 const Home = () => (
-  <div style={{ backgroundImage: back1.src, backgroundSize: 'cover',backgroundRepeat: 'no-repeat', minHeight: '100vh', backgroundPosition: 'center center',height: '100vh',width: '100vw'}}>
+  <div style={{ backgroundImage: `url(${back1.src})`, backgroundSize: 'cover',backgroundRepeat: 'no-repeat', minHeight: '100vh', backgroundPosition: 'center center',height: '100vh',width: '100vw'}}>
     <Head>
       <title>My Personal Website</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
