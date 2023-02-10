@@ -1,9 +1,10 @@
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
+import back1 from "../../public/back1.png"
 
 const Home = () => (
-  <div style={{ backgroundImage:'url(/back1.png)', backgroundSize: 'cover',backgroundRepeat: 'no-repeat', minHeight: '100vh', backgroundPosition: 'center center',height: '100vh',width: '100vw'}}>
+  <div style={{ backgroundImage: back1.src, backgroundSize: 'cover',backgroundRepeat: 'no-repeat', minHeight: '100vh', backgroundPosition: 'center center',height: '100vh',width: '100vw'}}>
     <Head>
       <title>My Personal Website</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -21,7 +22,7 @@ const Home = () => (
         &nbsp;(__)\ &emsp;&emsp;&nbsp;)\/\/\/ <br></br>
         &emsp;&emsp;||----w | <br></br>
         &emsp;&emsp;||     &emsp;&emsp;|| </b></b>
-        
+
         </Link>
       </p>
     </ul>
